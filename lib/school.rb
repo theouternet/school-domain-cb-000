@@ -23,7 +23,7 @@ def grade(grade)
 end
 
 def sort
-  @roster each do 
+  @roster each do |grade, name|
 end
 
 end
