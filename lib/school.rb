@@ -22,8 +22,8 @@ def grade(grade)
   return @roster[grade]
 end
 
-def sort
-  
+def sort do |a, b|
+  a <=> b
 end
 
 end
