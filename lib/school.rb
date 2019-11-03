@@ -24,6 +24,7 @@ end
 
 def sort do |a, b|
   a <=> b
+  return @roster
 end
 
 end
